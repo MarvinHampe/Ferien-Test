@@ -435,7 +435,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 #### Q26. What is the `<hr>`tag typically used for? / Alt.: What is the semantic meaning of the `<hr>` tag?
 
 - [ ] This tag is depreciated (alt.: deprecated) and should not be used.
-- [ ] It designates a topic shift within a section at the paragraph level.
+- [✔] It designates a topic shift within a section at the paragraph level.
 - [ ] It draws a horizontal line.
 - [ ] It designates a shift of topic at the section level. / Alt.: It designates a separation of sections within an `<article>`.
 
@@ -456,13 +456,13 @@ This is a confusing question and there can be an arguments for both the second a
 ```
 
 - [ ] `itemprop="aggregateRating" itemref="http://schema.org/AggregateRating"`
-- [ ] `itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating"`
+- [✔] `itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating"`
 - [ ] `itemid="aggregateRating" itemtype="http://schema.org/AggregateRating"`
 - [ ] `itemid="aggregateRating" itemref="http://schema.org/AggregateRating"`
 
 #### Q28. Which HTML snippet links back to the very top of a webpage?
 
-- [ ] A
+- [✔] A
 
 ```html
 <a id="top"></a>
@@ -496,7 +496,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 #### Q29. Which three tags where deprecated in HTML4 but returned to HTML5?
 
-- [ ] `<rb> <rp> <rt>`
+- [✔] `<rb> <rp> <rt>`
 - [ ] `<acronym> <code> <wbr>`
 - [ ] `<hgroup> <q> <wbr>`
 - [ ] `<b> <i> <u>`
@@ -506,7 +506,7 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] `<kdb>`, `<pre>`
 - [ ] `<pre>`, `<code>`
 - [ ] `<kdb>`, `<mark>`
-- [ ] `<code>`, `<pre>`
+- [✔] `<code>`, `<pre>`
 
 [Source: MDN Web Docs code](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
 
@@ -517,11 +517,11 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] It labels webpages with important information.
 - [ ] It creates an ID for a corresponding input element.
 - [ ] It overrides the name attribute's value on a child input element.
-- [ ] It programmatically associates a text label with an interface element.
+- [✔] It programmatically associates a text label with an interface element.
 
 #### Q32. To get a link to open in a new window or tab, use the **\_** attribute
 
-- [ ] `_blank`
+- [✔] `_blank`
 - [ ] `_self`
 - [ ] `_new`
 - [ ] `_parent`
@@ -545,7 +545,7 @@ This is a confusing question and there can be an arguments for both the second a
 <p>We are fond of our TLAs in web design.</p>
 ```
 
-- [ ] C
+- [✔] C
 
 ```html
 <p>
@@ -630,7 +630,7 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] title
 - [ ] type
 - [ ] device
-- [ ] media
+- [✔] media
 
 #### Q36. What is the semantically correct way to mark up this layout?
 
@@ -686,20 +686,20 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] The element opener is `<p>`, the element closer is `</p>`, and the element information is info.
 - [ ] The start tag is `<p>`, the end tag is `</p>`, and the enclosed HTML is info.
-- [ ] The start tag is `<p>`, the end tag is `</p>`, and the element content is info.
+- [✔] The start tag is `<p>`, the end tag is `</p>`, and the element content is info.
 - [ ] The start element is `<p>`, the end element is `</p>`, and the tag content is info.
 
 #### Q38. What is the difference between `<input type="submit" value="click me">` and `<button type="submit">Click me</button>`?
 
 - [ ] There is no difference. Both will render a button that submits a form.
-- [ ] Both will submit a form. However, the `<button>` can have content other than text, like an image or nested HTML elements, while the `<input>` cannot.
+- [✔] Both will submit a form. However, the `<button>` can have content other than text, like an image or nested HTML elements, while the `<input>` cannot.
 - [ ] `<input type="button">` has been deprecated in HTML5. You should use the `<button>` tag instead.
 - [ ] Both will submit a form. However, the `<input>` can have content other than text, like an image or nested HTML elements, while the `<button>` cannot.
 
 #### Q39. What is the best semantic way to indicate that text refers to keyboard entry?
 
 - [ ] `<p>Press the <tt>Enter</tt> key to proceed.</p>`
-- [ ] `<p>Press the <kbd>Enter</kbd> key to proceed.</p>`
+- [✔] `<p>Press the <kbd>Enter</kbd> key to proceed.</p>`
 - [ ] `<p>Press the <samp>Enter</samp> key to proceed.</p>`
 - [ ] `<p>Press the Enter key to proceed.</p>`
 
@@ -713,14 +713,14 @@ This is a confusing question and there can be an arguments for both the second a
 </audio>
 ```
 
-- [ ] The browser chooses the first supported format to play with the browser's default controls.
+- [✔] The browser chooses the first supported format to play with the browser's default controls.
 - [ ] The browser chooses the best audio format to play with JavaScript-provided controls.
 - [ ] The browser plays each sound file in order automatically. The user has controls to stop playback.
 - [ ] The browser chooses the first supported sound file and will loop the sound until the user stops it.
 
 #### Q41. What attribute applies a keyboard shortcut hint to the current element?
 
-- [ ] `accesskey`
+- [✔] `accesskey`
 - [ ] `shortcut`
 - [ ] `keyboard`
 - [ ] `access`
@@ -729,13 +729,13 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] `<a href="mailto:email@example.com&subject=Hello">Click me</a>`
 - [ ] `<a href="mailto:email@example.com">Hello</a>`
-- [ ] `<a href="mailto:email@example.com?subject=Hello">Click me</a>`
+- [✔] `<a href="mailto:email@example.com?subject=Hello">Click me</a>`
 - [ ] `<a href="mailto:email@example.com?&subject=Hello">Click me</a>`
 
 #### Q43. Which tag is the root element of an HTML document?
 
 - [ ] `<DOCTYPE html>`
-- [ ] `<html>`
+- [✔] `<html>`
 - [ ] `<body>`
 - [ ] `<root>`
 
@@ -799,7 +799,7 @@ The html element represents the root of a document.
 
 #### Q45. Which choice is NOT a legal value for the **name** attribute within a `<meta>` tag?
 
-- [ ] charset
+- [✔] charset
 - [ ] viewport
 - [ ] generator
 - [ ] author
@@ -832,7 +832,7 @@ The html element represents the root of a document.
 </form>
 ```
 
-- [ ] C
+- [✔] C
 
 ```html
 <form>
@@ -858,7 +858,7 @@ The html element represents the root of a document.
 
 #### Q47. What does the **poster** attribute do in the `<video>` tag?
 
-- [ ] It specifies an image that should display while the video downloads and until the video is played.
+- [✔] It specifies an image that should display while the video downloads and until the video is played.
 - [ ] It specifies an image that only displays if there is a problem with the video.
 - [ ] It specifies an image that should display until the video is played.
 - [ ] It specifies an image that should display while the video downloads.
@@ -873,21 +873,21 @@ The html element represents the root of a document.
 
 - [ ] The text displays over the audio controls, unless CSS is used to position it elsewhere.
 - [ ] The text displays under the audio controls.
-- [ ] The text displays when the browser cannot play the sound.
+- [✔] The text displays when the browser cannot play the sound.
 - [ ] The text never displays.
 
 #### Q49. What is the primary purpose of the `<canvas>` tag?
 
 - [ ] It allows raster images to be rendered on the webpage.
 - [ ] It displays annotated images.
-- [ ] It allows drawing on a bitmap via JavaScript.
+- [✔] It allows drawing on a bitmap via JavaScript.
 - [ ] It allows vector images to be rendered on the webpage.
 
 #### Q50. Which choice contains three valid block-level elements?</li>
 
 - [ ] `<details> <abbr> <figcaption>`
 - [ ] `<canvas> <select> <noscript>`
-- [ ] `<dt> <table> <pre>`
+- [✔] `<dt> <table> <pre>`
 - [ ] `<kbd> <p> <main>`
 
 #### Q51. In the code below, what is the purpose of the **lang** attribute?
