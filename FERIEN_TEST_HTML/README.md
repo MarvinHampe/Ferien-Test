@@ -898,7 +898,7 @@ The html element represents the root of a document.
 
 - [ ] It establishes the language for the website—in this case, English.
 - [ ] It establishes the language and dialect for the website—in this case, British English.
-- [ ] It establishes the language and dialect for the paragraph—in this case, British English.
+- [x] It establishes the language and dialect for the paragraph—in this case, British English.
 - [ ] It establishes the language for the paragraph—in this case, English.
 
 #### Q52. Which image formats can be displayed by all web browsers?
@@ -906,7 +906,7 @@ The html element represents the root of a document.
 - [ ] JPG, GIF, TIF
 - [ ] JPG, TIF, BMP
 - [ ] TIF, BMP, GIF
-- [ ] PNG, GIF, JPG
+- [x] PNG, GIF, JPG
 
 #### Q53. Review the code below. What is the absolute URL for a page called **page.html**?
 
@@ -914,7 +914,7 @@ The html element represents the root of a document.
 <base href="http://www.linkedin.com/dir/" />
 ```
 
-- [ ] `http://www.linkedin.com/dir/page.html`
+- [x] `http://www.linkedin.com/dir/page.html`
 - [ ] `page.html`
 - [ ] `http://www.linkedin.com/page.html`
 - [ ] `dir/page.html`
@@ -922,14 +922,14 @@ The html element represents the root of a document.
 #### Q54. What is the correct way to include a stylesheet named **style.css** in the `<head>` of your document?
 
 - [ ] `<style link="style.css">`
-- [ ] `<link rel="stylesheet" href="style.css">`
+- [x] `<link rel="stylesheet" href="style.css">`
 - [ ] `<style src="style.css"></style>`
 - [ ] `<link style="style.css">`
 
 #### Q55. You want to have single spacing in between some lines, like in a poem or an address. Which approach should you use?
 
 - [ ] Wrap the text in a box that is the right width so everything wraps correctly. Set the box width with CSS.
-- [ ] Separate lines with a `<p>`, then use CSS to make single spacing.
+- [x] Separate lines with a `<p>`, then use CSS to make single spacing.
 - [ ] Use the `<pre>` tag to make the line spacing look exactly like you want.
 - [ ] Separate the lines with the `<br>` tag.
 
@@ -938,7 +938,7 @@ The html element represents the root of a document.
 - [ ] It requires the browser to wrap the current line at that point.
 - [ ] It breaks a word into two pieces, using a hyphen to connect the words.
 - [ ] It formats a sentence to be easily breakable.
-- [ ] It presents an opportunity for a break in a very long word, if needed for proper page display.
+- [x] It presents an opportunity for a break in a very long word, if needed for proper page display.
 
 #### Q57. Review the code below. How do you include subnavigation for Link 2 that includes a link?
 
@@ -967,7 +967,7 @@ The html element represents the root of a document.
 </nav>
 ```
 
-- [ ] B
+- [x] B
 
 ```html
 <nav>
@@ -1025,20 +1025,20 @@ The html element represents the root of a document.
 - [ ] `//this is a comment`
 - [ ] `/* this is a comment */`
 - [ ] `<! this is a comment ->`
-- [ ] `<!-- this is a comment -->`
+- [x] `<!-- this is a comment -->`
 
 #### Q59. Which statement is **false**?
 
 - [ ] Inline elements can be nested inside inline elements.
 - [ ] Block elements can be nested inside block elements.
 - [ ] Inline elements can be nested inside block elements.
-- [ ] Block elements can be nested inside inline elements.
+- [x] Block elements can be nested inside inline elements.
 
 #### Q60. What is the best semantic to use Quotes in HTML?
 
 `Steve Kruz Said: "He will Win"`
 
-- [ ] `<q>`
+- [x] `<q>`
 - [ ] `<quote>`
 - [ ] `<blockquote>`
 - [ ] `<notation>`
@@ -1048,7 +1048,7 @@ The html element represents the root of a document.
 #### Q61. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
 
 - [ ] It will display a random frame from a video, unless the **poster** attribute is set.
-- [ ] It will display the first frame of the video, unless the **poster** attribute is set.
+- [x] It will display the first frame of the video, unless the **poster** attribute is set.
 - [ ] It will display nothing unless the **poster** attribute is set.
 - [ ] It will display a black window unless the **poster** attribute is set.
 
@@ -1058,7 +1058,7 @@ The html element represents the root of a document.
 
 - [ ] It has opening and closing tags but no child content.
 - [ ] It display nothing on a website.
-- [ ] It has no child content and no closing tag.
+- [x] It has no child content and no closing tag.
 - [ ] It has child content but no closing tag.
 
 [Reference (MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
@@ -1069,7 +1069,7 @@ The html element represents the root of a document.
 
 - [ ] It downloads the script from the server when resources allow.
 - [ ] It runs the script after HTML parsing is complete.
-- [ ] It runs the script when the script is ready.
+- [x] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
 #### Q64. What does this code do on a page you are visiting for the first time?
@@ -1079,7 +1079,7 @@ The html element represents the root of a document.
 - [ ] When the **Play** button is pressed, the browser plays the sound over and over again until the user stops it.
 - [ ] The browser plays the sound once automatically in the background. The user has no control over the sound.
 - [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any tune.
-- [ ] It does nothing. Modern browsers require some form of interaction before they let a page autoplay with audio.
+- [x] It does nothing. Modern browsers require some form of interaction before they let a page autoplay with audio.
 
 References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio),
 [(MDN) autoplay](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
@@ -1088,7 +1088,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 - [ ] There is only one `<head>` tag per page, while there may be many `<header>` tags.
 - [ ] The `<head>` tag may contain CSS and Javascript links, while the `<header>` tag may contain headings and navigational links.
-- [ ] all of these answers
+- [x] all of these answers
 - [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation, logos, and other page identifying content.
 
 #### Q66. In this code, what is the purpose of defer?
@@ -1096,7 +1096,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 `<script defer src="myscript.js"></script>`
 
 - [ ] It downloads the script from the server when resources allow.
-- [ ] It runs the script after HTML parsing is complete.
+- [x] It runs the script after HTML parsing is complete.
 - [ ] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
@@ -1146,7 +1146,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 </table>
 ```
 
-- [ ] C
+- [x] C
 
 ```html
 <table>
@@ -1187,7 +1187,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 - [ ] For blog posts and other social media items
 - [ ] For the main content area of your website
-- [ ] When the content stands alone as a unit, is suitable for syndication, or is reusable
+- [x] When the content stands alone as a unit, is suitable for syndication, or is reusable
 - [ ] To associate comments with a blog post
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
@@ -1218,7 +1218,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 <title>
 ```
 
-- [ ] D
+- [x] D
 
 ```html
 <wbr />
@@ -1228,7 +1228,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 #### Q71. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
 
-- [ ] `<a href="tel:802-555-1212">Call me</a>`
+- [x] `<a href="tel:802-555-1212">Call me</a>`
 - [ ] `<a href="phone">802-555-1212</a>`
 - [ ] `<a href="tel">802-555-1212</a>`
 - [ ] `<a href="phone:802-555-1212">Call me</a>`
@@ -1239,7 +1239,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
       separated by spaces.
 - [ ] Classes allow CSS and JavaScript to select specific elements on the page. You may list only one class name per class attribute.
 - [ ] Classes allow CSS to select specific elements on the page. You may list only one class name per class attribute.
-- [ ] Classes allow CSS and JavaScript to select specific elements on the page. You may list as many class names within the class attribute
+- [x] Classes allow CSS and JavaScript to select specific elements on the page. You may list as many class names within the class attribute
       as you wish, separated by spaces.
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
@@ -1249,7 +1249,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 - [ ] `<input type="color">`
 - [ ] `<input type="tel">`
 - [ ] `<input type="week">`
-- [ ] `<input type="num">`
+- [x] `<input type="num">`
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
 
@@ -1260,7 +1260,7 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<p>`As Steve Krug once said, `<b>`happy talk must die.`</b>` `</p>`
 - [ ] `<p>`As Steve Krug once said, `<i>`happy talk must die.`</i>` `</p>`
 - [ ] `<p>`As Steve Krug once said, `<blockquote>`happy talk must die.`</blockquote>` `</p>`
-- [ ] `<p>`As Steve Krug once said, `<q>`happy talk must die.`</q>` `</p>`
+- [x] `<p>`As Steve Krug once said, `<q>`happy talk must die.`</q>` `</p>`
 
 [Source: W3Schools](https://www.w3schools.com/tags/tag_q.asp)
 
@@ -1301,7 +1301,7 @@ As Steve Krug once said, happy talk must die.
 </nav>
 ```
 
-- [ ] D
+- [x] D
 
 ```html
 <nav>
@@ -1371,7 +1371,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q77. What is the primary purpose of HTML?
 
-- [ ] HTML structures the webpage, identifying its elements such as paragraphs, headings, and lists.
+- [x] HTML structures the webpage, identifying its elements such as paragraphs, headings, and lists.
 - [ ] HTML structures and provides a rudimentary look to webpages.
 - [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
 - [ ] HTML is responsible for the structure and styling of webpages.
@@ -1383,7 +1383,7 @@ As Steve Krug once said, happy talk must die.
 ```
 
 - [ ] when there is no JavaScript used on this webpage
-- [ ] when JavaScript is not supported by the browser or if JavaScript is disabled in the browser
+- [x] when JavaScript is not supported by the browser or if JavaScript is disabled in the browser
 - [ ] when JavaScript is disabled in the web browser
 - [ ] when JavaScript is not supported by the web browser
 
@@ -1412,7 +1412,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q80. What is the difference between the `<svg>` and `<canvas>`?
 
-- [ ] `<svg>` produces vector graphics, while `<canvas>` produces raster graphics.
+- [x] `<svg>` produces vector graphics, while `<canvas>` produces raster graphics.
 - [ ] `<svg>` integrates with JavaScript, while `<canvas>` does not.
 - [ ] `<svg>` produces raster graphics, while `<canvas>` produces vector graphics.
 - [ ] `<svg>` cannot be used as a background image, while `<canvas>` can be used as a background
