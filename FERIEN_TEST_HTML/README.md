@@ -112,7 +112,7 @@ flowchart TD
 </p>
 ```
 
-- [ ] C
+- [x] C
 
 ```html
 <details open>
@@ -276,7 +276,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 ![Image of footer](images/ss-3.png?raw=true)
 
 - [ ] ordered list
-- [ ] unordered list inside a nav element
+- [x] unordered list inside a nav element
 - [ ] ordered list inside a nav element
 - [ ] unordered list
 
@@ -378,7 +378,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </table>
 ```
 
-- [ ] B
+- [x] B
 
 ```html
 <table>
@@ -589,7 +589,7 @@ This is a confusing question and there can be an arguments for both the second a
 </ul>
 ```
 
-- [ ] B
+- [x] B
 
 ```html
 <ul>
@@ -658,7 +658,7 @@ This is a confusing question and there can be an arguments for both the second a
 </blockquote>
 ```
 
-- [ ] C
+- [x] C
 
 ```html
 <blockquote>
@@ -773,7 +773,7 @@ The html element represents the root of a document.
 </tr>
 ```
 
-- [ ] C
+- [x] C
 
 ```html
 <tr>
@@ -1179,7 +1179,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 ![Image of footer](images/ss-7.png?raw=true)
 
 - [ ] `<a href="../work/info.html">See Information </a>`
-- [ ] `<a href="../info.html">See Information </a>`
+- [x] `<a href="../info.html">See Information </a>`
 - [ ] `<a href="../../info.html">See Information </a>`
 - [ ] `<a href="info.html">See Information </a>`
 
@@ -1317,7 +1317,7 @@ As Steve Krug once said, happy talk must die.
 
 ![Image of footer](images/ss-8.png?raw=true)
 
-- [ ] A
+- [x] A
 
 ```html
 <h4>Mailing Address</h4>
@@ -1401,7 +1401,7 @@ As Steve Krug once said, happy talk must die.
 </details>
 ```
 
-- [ ] A
+- [x] A
       ![A](images/Q84-1.jpg)
 - [ ] B
       ![B](images/Q84-2.jpg)
@@ -1419,7 +1419,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q81. What is the difference between the _readonly_ and _disabled_ attributes for the `<textarea>` element?
 
-- [ ] _readonly_ allows clicking in the `<textarea>` element. _disabled_ prevents all interaction with the control.
+- [x] _readonly_ allows clicking in the `<textarea>` element. _disabled_ prevents all interaction with the control.
 - [ ] _readonly_ is invalid attribute for `<textarea>`, while _disabled_ is a valid attribute.
 - [ ] _disabled_ allows clicking in the `<textarea>` element. _readonly_ prevents all interaction with the control.
 - [ ] _disabled_ is invalid attribute for `<textarea>`, while _readonly_ is a valid attribute.
@@ -1432,7 +1432,7 @@ As Steve Krug once said, happy talk must die.
 
 `<a target="_blank">...</a>`
 
-- [ ] an attribute
+- [x] an attribute
 - [ ] a tag
 - [ ] content
 - [ ] an element
@@ -1451,7 +1451,7 @@ As Steve Krug once said, happy talk must die.
 <button action="http://example.com/process">Process data</button>
 ```
 
-- [ ] C
+- [x] C
 
 ```html
 <button formaction="http://example.com/process">Process data</button>
@@ -1470,7 +1470,7 @@ As Steve Krug once said, happy talk must die.
 `x<y&z>w`
 
 - [ ] `<p>x<y&z>w</p>`
-- [ ] `<p>x\<y&z\>w</p>`
+- [x] `<p>x\<y&z\>w</p>`
 - [ ] `<p>x<<y&&z>>w`
 - [ ] `<p>x<y&z>w</p>`
 
@@ -1487,18 +1487,18 @@ As Steve Krug once said, happy talk must die.
 - [ ] The `<label>` and `<input>` should be nested inside of a `<fieldset>` element.
 - [ ] **"address"** is not a valid value for the attribute **name** on an `<input>` element.
 - [ ] The `<label>` element is missing an **id** set to "address-input".
-- [ ] The `<label>` element is missing a **for** attribute set to "address-input".
+- [x] The `<label>` element is missing a **for** attribute set to "address-input".
 
 #### Q86. What is the default method for form submission?
 
-- [ ] GET
+- [x] GET
 - [ ] POST
 - [ ] PUT
 - [ ] SUBMIT
 
 #### Q87. Which is the most semantically correct markup for a side comment in small print?
 
-- [ ] `<p>` Get 10% discount `<small>`not valid in France`</small></p>`
+- [x] `<p>` Get 10% discount `<small>`not valid in France`</small></p>`
 - [ ] `<p>` Get 10% discount `<!--not valid in France--> </p>`
 - [ ] `<p>` Get 10% discount `<comment>`not valid in France`</comment></p>`
 - [ ] `<p>` Get 10% discount `<aside>`not valid in France`</aside></p>`
@@ -1506,20 +1506,20 @@ As Steve Krug once said, happy talk must die.
 #### Q88. Which choice will produce the spanish word <i>canción</i>?
 
 - [ ] `<p lang="es">canción</p>`
-- [ ] `<p lang="es">canci&oacuten</p>`
+- [x] `<p lang="es">canci&oacuten</p>`
 - [ ] `<p lang="es">cancio'n</p>`
 - [ ] `<p lang="es">canci'on</p>`
 
 #### Q89. What is the purpose of `<caption>`?
 
 - [ ] `<caption>` provides captions for `<audio>`,`<video>`,`<img>`, and `<table>`.
-- [ ] `<caption>` provides captions to `<table>`.
+- [x] `<caption>` provides captions to `<table>`.
 - [ ] `<caption>` provides captions for `<audio>`, `<video>`, and `<table>`.
 - [ ] `<caption>` provides captions for `<img>`, `<audio>`, and `<video>`.
 
 #### Q90. The value attribute is associated with which set of tags ?
 
-- [ ] A
+- [x] A
 
 ```html
 <li>
@@ -1556,14 +1556,14 @@ As Steve Krug once said, happy talk must die.
 `<img src="https://source.unsplash.com/random">`
 
 - [ ] `<img>` should be paired with a `<caption>` tag.
-- [ ] The `<img>` element is missing an alt attribute.
+- [x] The `<img>` element is missing an alt attribute.
 - [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
 - [ ] `<img>` should be nested within a `<figure>` tag.
 
 #### Q92. Which choice is the most semantically correct markup for specifying the first definition of a term?
 
 - [ ] `<p>`The `<dl>`focal length`</dl>` of a lens gives the distance from the lens to the image sensor.`</p>`
-- [ ] `<p>`The `<dfn>`focal length`<dfn>` of a lens gives the distance from the lens to the image sensor.`</p>`
+- [x] `<p>`The `<dfn>`focal length`<dfn>` of a lens gives the distance from the lens to the image sensor.`</p>`
 - [ ] `<p>`The `<dt>`focal length`</dt>` of a lens gives the distance from the lens to the image sensor.`</p>`
 - [ ] `<p>`The `<dd>`focal length`</dd>` of a lens gives the distance from the lens to the image sensor.`</p>`
 
@@ -1581,7 +1581,7 @@ As Steve Krug once said, happy talk must die.
 <input type="radio" name="example" /> Choice 3
 ```
 
-- [ ] :
+- [x] :
 
 ```html
 <input type="checkbox" name="example" /> Choice 1 <br />
@@ -1611,7 +1611,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q94. How would you mark up a piece of ASCII art (an emoticon) in an accessible way?
 
-- [ ] `<pre role="emoticon" aria-label="ASCII emoticon of a shrug">¯\_(ツ)_/¯</pre>`
+- [x] `<pre role="emoticon" aria-label="ASCII emoticon of a shrug">¯\_(ツ)_/¯</pre>`
 - [ ] `<pre role="img" aria-label="ASCII emoticon of a shrug">¯\_(ツ)_/¯</pre>`
 - [ ] `<dfn title="ASCII emoticon of a shrug">¯\_(ツ)_/¯</dfn>`
 - [ ] `<label for="art">ASCII emoticon of a shrug</label><pre role="img" id="art">¯\_(ツ)_/¯</pre>`
@@ -1621,12 +1621,12 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<metadata name="author" content="Author Name">`
 - [ ] `<meta name="author">Author Name</meta>`
 - [ ] `<meta name="creator" content="Author Name">`
-- [ ] `<meta name="author" content="Author Name">`
+- [x] `<meta name="author" content="Author Name">`
 
 #### Q96. Given the following requirements, select the correct `input` configuration: An `input` that allows the user to select from a range of integer values between 0 and 100 (inclusive) in increments of 5.
 
 - [ ] `<input type="range" min="0" max="100" by="5" />`
-- [ ] `<input type="range" min="0" max="100" step="5" />`
+- [x] `<input type="range" min="0" max="100" step="5" />`
 - [ ] `<input type="number" min="0" max="100" step="5" />`
 - [ ] `<input type="number" min="0" max="100" by="5" />`
 
@@ -1638,7 +1638,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] `<head class="Page Section Information" id="head"><title>Page Title</title></head>`
 - [ ] `<head><title>Page Title</title> <img src="favicon.icon" alt=""></head>`
-- [ ] `<head><title>Page Title</title> <data value="email">email@example.com</data></head>`
+- [x] `<head><title>Page Title</title> <data value="email">email@example.com</data></head>`
 - [ ] `<head><title>Page Title</title><address>email@example.com</address></head>`
 
 `The <head> HTML element contains machine-readable information (metadata) about the document, like its title.The <data> tag is used to add a machine-readable translation of a given content.`
@@ -1647,7 +1647,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q98. You need to add comments to the company blog. What is the most semantic markup for a list of comments?
 
-- [ ] A
+- [x] A
 
 ```html
 <aside>
@@ -1694,7 +1694,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] `access`; allow
 - [ ] `designMode`; true
-- [ ] `contenteditable`; true
+- [x] `contenteditable`; true
 - [ ] `contenteditable`; yes
 
 `The contenteditable global attribute is an enumerated attribute indicating if the element should be editable by the user. If so, the browser modifies its widget to allow editing. The attribute must take one of the following values: true or an empty string, which indicates that the element is editable; false, which indicates that the element is not editable.`
@@ -1704,7 +1704,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] `<input type="invisible" name="important" value="information">`
 - [ ] `<input type="text" style="display: none;" name="important" value="information">`
-- [ ] `<input type="hidden" name="important" value="information">`
+- [x] `<input type="hidden" name="important" value="information">`
 - [ ] `<input type="text" hidden name="important" value="information">`
 
 `<input> elements of type hidden let web developers include data that cannot be seen or modified by users when a form is submitted. For example, the ID of the content that is currently being ordered or edited, or a unique security token. Hidden inputs are completely invisible in the rendered page, and there is no way to make it visible in the page's content.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden)
@@ -1714,7 +1714,7 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<table><label>Heading</label>...</table>`
 - [ ] `<table><title>Heading</title>...</table>`
 - [ ] `<table><legend>Heading</legend>...</table>`
-- [ ] `<table><caption>Heading</caption>...</table>`
+- [x] `<table><caption>Heading</caption>...</table>`
 
 `The <caption> HTML element specifies the caption (or title) of a table.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption)
 
@@ -1732,13 +1732,13 @@ As Steve Krug once said, happy talk must die.
 - [ ] small.jpg
 - [ ] medium.jpg
 - [ ] none of them
-- [ ] large.jpg
+- [x] large.jpg
 
 `The browser will: 1. Look at its device width. 2. Work out which media condition in the sizes list is the first one to be true. 3. Look at the slot size given to that media query. 4. Load the image referenced in the srcset list that has the same size as the slot or, if there isn't one, the first image that is bigger than the chosen slot size.` [Source](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
 #### Q103. Which description is coded correctly?
 
-- [ ] A
+- [x] A
 
 ```html
 <dl>
@@ -1798,7 +1798,7 @@ As Steve Krug once said, happy talk must die.
 ```
 
 - [ ] Nothing is wrong.
-- [ ] `<ul>` cannot contain a heading element as a direct child.
+- [x] `<ul>` cannot contain a heading element as a direct child.
 - [ ] An `<h1>` should be used here instead of an `<h2>` tag.
 - [ ] Only `<ol>` allows direct descendants to contain elements other than an `<li>`, so use an `<ol>` here instead.
 
@@ -1808,12 +1808,12 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] `<style media="light-mode: false">/* CSS code */</style>`
 - [ ] `<style media="color-mode: dark">/* CSS code */</style>`
-- [ ] `<style media="prefers-color-scheme: dark">/* CSS code */</style>`
+- [x] `<style media="prefers-color-scheme: dark">/* CSS code */</style>`
 - [ ] `<style media="color-scheme: dark">/* CSS code */</style>`
 
 #### Q106. How would you mark up a header for a table row?
 
-- [ ] A
+- [x] A
 
 ```html
 <table>
@@ -1869,7 +1869,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] The `<main>` element represents the dominant content of an `<article>` in a document.
 - [ ] The `<main>` element represents the dominant content of a `<section>` of a document. You may have one `<main>` element per section.
-- [ ] The `<main>` element represents the dominant content of your document. There can be only one `<main>` element that is not hidden.
+- [x] The `<main>` element represents the dominant content of your document. There can be only one `<main>` element that is not hidden.
 - [ ] The `<article>` element represents the dominant content of your document. There can be only one `<article>` element that is not hidden.
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
@@ -1891,7 +1891,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] The form element is disabled.
 - [ ] There is no <input type="submit"> element.
-- [ ] The fieldset is disabled.
+- [x] The fieldset is disabled.
 - [ ] There is no method set on the form.
 
 A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools.com/tags/att_fieldset_disabled.asp)
