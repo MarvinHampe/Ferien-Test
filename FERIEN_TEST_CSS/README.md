@@ -23,7 +23,7 @@ div a
 
 #### Q2. Using an attribute selector, how would you select an `<a>` element with a "title" attribute?
 
-- [ ] `a[title]{...}`
+- [x] `a[title]{...}`
 - [ ] `a > title {...}`
 - [ ] `a.title {...}`
 - [ ] `a=title {...}`
@@ -32,7 +32,7 @@ Note: an alternative to the question below.
 
 #### Q3. What is the CSS selector for an `<a>` tag containing the title attribute?
 
-- [ ] `a[title]`
+- [x] `a[title]`
 - [ ] `a > title`
 - [ ] `a=title`
 - [ ] `a.title`
@@ -44,7 +44,7 @@ Note: an alternative to the question above.
 - [ ] Use the "clearfix hack" on the floated element and add a float to the parent element.
 - [ ] Use the overflow property on the floated element or the "clearfix hack" on either the floated or parent element.
 - [ ] Use the "clearfix hack" on the floated element or the overflow property on the parent element.
-- [ ] Use the "clearfix hack" on the parent element or use the overflow property with a value other than "visible."
+- [x] Use the "clearfix hack" on the parent element or use the overflow property with a value other than "visible."
 
 #### Q5. What element(s) do the following selectors match to?
 
@@ -70,7 +70,7 @@ Note: an alternative to the question above.
   ```markdown
       They all target the same nav element.
   ```
-- [ ]
+- [x]
   ```markdown
   1. An element with an class of "nav"
   2. A nav element
@@ -87,13 +87,13 @@ Note: an alternative to the question above.
 
 - [ ] Opacity specifies the level of transparency of the child elements. Background with an `rgba()` value applies transparency to the background color only.
 - [ ] Opacity applies transparency to the background color only. Background with an `rgba()` value specifies the level of transparency of an element, as a whole, including its content.
-- [ ] Opacity specifies the level of transparency of an element, including its content. Background with an `rgba()` value applies transparency to the background color only.
+- [x] Opacity specifies the level of transparency of an element, including its content. Background with an `rgba()` value applies transparency to the background color only.
 - [ ] Opacity applies transparency to the parent and child elements. Background with an `rgba()` value specifies the level of transparency of the parent element only.
 
 #### Q7. What is true of block and inline elements? (_Alternative_: Which statement about block and inline elements is true?)
 
 - [ ] By default, block elements are the same height and width as the content container between their tags; inline elements span the entire width of its container.
-- [ ] By default, block elements span the entire width of its container; inline elements are the same height and width as the content contained between their tags.
+- [x] By default, block elements span the entire width of its container; inline elements are the same height and width as the content contained between their tags.
 - [ ] A `<nav>` element is an example of an inline element. `<header>` is an example of a block element.
 - [ ] A `<span>` is an example of a block element. `<div>` is an example of an inline element.
 
@@ -108,7 +108,7 @@ Note: an alternative to the question above.
 ```
 
 - [ ] The first column will have a width of 50px. The second column will be 50px wide and the third column will be 100px wide.
-- [ ] The first column will have a width of 50px. The second column will be 150px wide and the third column will be 300px wide.
+- [x] The first column will have a width of 50px. The second column will be 150px wide and the third column will be 300px wide.
 - [ ] The first column will have a width of 50px. The second column will be 300px wide and the third column will be 150px wide.
 - [ ] The first column will have a width of 50px. The second column will be 500px wide and the third column will be 1000px wide.
 
@@ -118,7 +118,7 @@ Note: an alternative to the question below.
 
 `.grid { display: grid; grid-template-columns: 50px 1fr 2fr; }`
 
-- [ ] 50px, 150px, 300px
+- [x] 50px, 150px, 300px
 - [ ] 50px, 200px, 300px
 - [ ] 50px, 100px, 200px
 - [ ] 50px, 50px, 100px
@@ -127,7 +127,7 @@ Note: an alternative to the question above.
 
 #### Q10. What is the line-height property primarily used for?
 
-- [ ] to control the height of the space between two lines of content
+- [x] to control the height of the space between two lines of content
 - [ ] to control the height of the space between heading elements
 - [ ] to control the height of the character size
 - [ ] to control the width of the space between characters
@@ -137,13 +137,13 @@ Note: an alternative to the question above.
 - [ ] Multiple classes can be used within the same element.
 - [ ] The same class can be used multiple times per page.
 - [ ] Class selectors begin with a leading period
-- [ ] Classes can be used multiple times per page but not within the same element.
+- [x] Classes can be used multiple times per page but not within the same element.
 
 Note: an alternative to the question below.
 
 #### Q12. What is not true about class selectors?
 
-- [ ] Only one class value can be assigned to an element.
+- [x] Only one class value can be assigned to an element.
 - [ ] An element can have multiple class value.
 - [ ] Class selectors are marked with a leading period.
 - [ ] More than one element can have the same class value.
@@ -152,7 +152,7 @@ Note: an alternative to the question above.
 
 #### Q13. There are many properties that can be used to align elements and create page layouts such as float, position, flexbox and grid. Of these four properties, which one should be used to align a global navigation bar which stays fixed at the top of the page?
 
-- [ ] position
+- [x] position
 - [ ] flexbox
 - [ ] grid
 - [ ] float
@@ -163,7 +163,7 @@ Note: an alternative to the question above.
 background: blue url(image.jpg) no-repeat scroll 0px 0px;
 ```
 
-- [ ]
+- [x]
   ```css
   background-color: blue;
   background-image: url(image.jpg);
@@ -222,13 +222,13 @@ a {
 ```
 
 - [ ] green
-- [ ] yellow
+- [x] yellow
 - [ ] blue
 - [ ] red
 
 #### Q16. When elements overlap, they are ordered on the z-axis (i.e., which element covers another). The z-index property can be used to specify the z-order of overlapping elements. Which set of statements about the z-index property are true?
 
-- [ ] Larger z-index values appear on top of elements with a lower z-index value. Negative and positive numbers can be used. z-index can only be used on positioned elements.
+- [x] Larger z-index values appear on top of elements with a lower z-index value. Negative and positive numbers can be used. z-index can only be used on positioned elements.
 - [ ] Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index must also be used with positioned elements.
 - [ ] Larger z-index values appear on top of elements with a lower z-index value. Only positive numbers can be used. z-index must also be used with positioned elements.
 - [ ] Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index can be used with or without positioned elements.
@@ -237,7 +237,7 @@ Note: an alternative to the question below.
 
 #### Q17. When elements within a container overlap, the z-index property can be used to indicate how those items are stacked on top of each other. Which set of statements is true?
 
-- [ ]
+- [x]
   ```markdown
   1. Larger z-index values appear on top elements with a lower z-index value.
   2. Negative and positive number can be used.
@@ -271,7 +271,7 @@ line-height: 20px;
 line-height: 2;
 ```
 
-- [ ] The value of 20px will set the line-height to 20px. The value of 2 will set the line-height to twice the size of the corresponding font-size value.
+- [x] The value of 20px will set the line-height to 20px. The value of 2 will set the line-height to twice the size of the corresponding font-size value.
 - [ ] The value of 20px will set the line-height to 20px. The value of 2 is not valid.
 - [ ] The value of 20px will set the line-height to 20px. The value of 2 will default to a value of 2px.
 - [ ] The value of 20px will set the line-height to 20px. The value of 2 will set the line-height to 20% of the corresponding font-size value.
@@ -297,7 +297,7 @@ section + p {
 
 - [ ] Paragraph one will be blue, paragraph two will be red.
 - [ ] Both paragraphs will be blue.
-- [ ] Paragraphs one will be red, paragraph two will be blue.
+- [x] Paragraphs one will be red, paragraph two will be blue.
 - [ ] Both paragraphs will be red.
 
 #### Q20. What are three valid ways of adding CSS to an HTML page?
@@ -320,7 +320,7 @@ section + p {
   2. Internal; CSS is included within the <header> element of the HTML file.
   3. Inline; CSS is added to the HTML tag.
   ```
-- [ ]
+- [x]
   ```markdown
   1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
   2. Inline; CSS is added to the HTML tag.
@@ -331,7 +331,7 @@ section + p {
 
 - [ ] CSS can be applied to SVGs but JavaScript cannot be.
 - [ ] SVGs work best for creating 3D graphics.
-- [ ] SVGs can be created as a vector graphic or coded using SVG specific elements such as &#x3C;svg&#x3E;, &#x3C;line&#x3E;, and &#x3C;ellipse&#x3E;.
+- [x] SVGs can be created as a vector graphic or coded using SVG specific elements such as &#x3C;svg&#x3E;, &#x3C;line&#x3E;, and &#x3C;ellipse&#x3E;.
 - [ ] SVGs are a HAML-based markup language for creating vector graphics.
 
 #### Q22. In the example below, when will the color pink be applied to the anchor element?
@@ -344,7 +344,7 @@ a:active {
 
 - [ ] The color of the link will display as pink after its been clicked or if the mouse is hovering over the link.
 - [ ] The color of the link will display as pink on mouse hover.
-- [ ] The color of the link will display as pink while the link is being clicked but before the mouse click is released.
+- [x] The color of the link will display as pink while the link is being clicked but before the mouse click is released.
 - [ ] The color of the link will display as pink before it has been clicked.
 
 #### Q23. To change the color of an SVG using CSS, which property is used?
@@ -352,19 +352,19 @@ a:active {
 - [ ] Use background-fill to set the color inside the object and stroke or border to set the color of the border.
 - [ ] The color cannot be changed with CSS.
 - [ ] Use fill or background to set the color inside the object and stroke to set the color of the border.
-- [ ] Use fill to set the color inside the object and stroke to set the color of the border.
+- [x] Use fill to set the color inside the object and stroke to set the color of the border.
 
 #### Q24. When using position: fixed, what will the element always be positioned relative to?
 
 - [ ] the closest element with position: relative
-- [ ] the viewport
+- [x] the viewport
 - [ ] the parent element
 - [ ] the wrapper element
 
 #### Q25. By default, a background image will repeat \_
 
 - [ ] only if the background-repeat property is set to repeat
-- [ ] indefinitely, vertically, and horizontally
+- [x] indefinitely, vertically, and horizontally
 - [ ] indefinitely on the horizontal axis only
 - [ ] once, on the x and y axis
 
@@ -372,12 +372,12 @@ a:active {
 
 - [ ] print, screen, aural
 - [ ] print, screen, television
-- [ ] print, screen, speech
+- [x] print, screen, speech
 - [ ] print, speech, device
 
 #### Q27. How would you make the first letter of every paragraph on the page red?
 
-- [ ] p::first-letter { color: red; }
+- [x] p::first-letter { color: red; }
 - [ ] p:first-letter { color: red; }
 - [ ] first-letter::p { color: red; }
 - [ ] first-letter:p { color: red; }
@@ -396,7 +396,7 @@ p {
   "#000000" is the property
   "color" is the value
   ```
-- [ ]
+- [x]
   ```markdown
   "p" is the selector
   "color" is the property
@@ -420,14 +420,14 @@ p {
 - [ ] The rem unit is relative to the font-size of the p element.
 - [ ] You have to set the value for the rem unit by writing a declaration such as rem { font-size: 1 Spx; }
 - [ ] The rem unit is relative to the font-size of the containing (parent) element.
-- [ ] The rem unit is relative to the font-size of the root element of the page.
+- [x] The rem unit is relative to the font-size of the root element of the page.
 
 #### Q30. Which choice would give a block element rounded corners?
 
 - [ ] `corner-radius: 10px;`
 - [ ] `border-corner: 10px;`
 - [ ] `corner-curve: 10px;`
-- [ ] `border-radius: 10px;`
+- [x] `border-radius: 10px;`
 
 [Official doc:](https://www.w3schools.com/css/css3_borders.asp)
 
@@ -437,14 +437,14 @@ p {
 @media (min-width: 1024px), screen and (orientation: landscape) { … }
 ```
 
-- [ ] The rule will apply to a device that has either a width of 1024px or wider, or is a screen device in landscape mode.
+- [x] The rule will apply to a device that has either a width of 1024px or wider, or is a screen device in landscape mode.
 - [ ] The rule will apply to a device that has a width of 1024px or narrower and is a screen device in landscape mode.
 - [ ] The rule will apply to a device that has a width of 1024px or wider and is a screen device in landscape mode.
 - [ ] The rule will apply to a device that has a width of 1024px or narrower, or is a screen device in landscape mode.
 
 #### Q32. CSS transform properties are used to change the shape and position of the selected objects. The transform-origin property specifies the location of the element's transformation origin. By default, what is the location of the origin?
 
-- [ ] the top left corner of the element
+- [x] the top left corner of the element
 - [ ] the center of the element
 - [ ] the top right corner of the element
 - [ ] the bottom left of the element
@@ -454,7 +454,7 @@ p {
 - [ ] `color: #000`
 - [ ] `color: rgb(0,0,0)`
 - [ ] `color: #000000`
-- [ ] `color: 000000`
+- [x] `color: 000000`
 
 #### Q34. What is the vertical gap between the two elements below?
 
@@ -463,7 +463,7 @@ p {
 <div style="margin-top: 2rem;">Div 2</div>
 ```
 
-- [ ] 2rem
+- [x] 2rem
 - [ ] 32px
 - [ ] 64px
 - [ ] 4rem
@@ -472,7 +472,7 @@ p {
 
 #### Q35. When using the Flexbox method, what property and value is used to display flex items in a column?
 
-- [ ] flex-flow: column; or flex-direction: column
+- [x] flex-flow: column; or flex-direction: column
 - [ ] flex-flow: column;
 - [ ] flex-column: auto;
 - [ ] flex-direction: column;
@@ -480,7 +480,7 @@ p {
 #### Q36. Which type of declaration will take precedence?
 
 - [ ] any declarations in user-agent stylesheets
-- [ ] important declarations in user stylesheets
+- [x] important declarations in user stylesheets
 - [ ] normal declarations in author stylesheets
 - [ ] important declarations in author stylesheets
 
@@ -488,7 +488,7 @@ p {
 
 ![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-1.png)
 
-- [ ]
+- [x]
   - Example 1: `flex-direction: row;`
   - Example 2: `flex-direction: row-reverse;`
   - Example 3: `flex-direction: column;`
@@ -530,7 +530,7 @@ h2 + p {
 ```
 
 - [ ] Paragraphs 2 and 3 will be blue. The h2 and paragraph 2 will have a beige background.
-- [ ] Paragraphs 2, and 3 will be blue, and paragraph 2 will have a beige background.
+- [x] Paragraphs 2, and 3 will be blue, and paragraph 2 will have a beige background.
 - [ ] Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.
 
 Note: a variant of the question below.
@@ -554,7 +554,7 @@ h2 ~ p {
 
 - [ ] P3
 - [ ] P1, P3 and P4
-- [ ] P3 and P4
+- [x] P3 and P4
 - [ ] P1
 
 [Reference](https://www.w3docs.com/snippets/css/what-does-the-css-tilde-selector-mean.html)
@@ -565,7 +565,7 @@ Note: a variant of the question above.
 
 ![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-2.png)
 
-- [ ] justify-content: space-around;
+- [x] justify-content: space-around;
 - [ ] justify-content: center;
 - [ ] justify-content: auto;
 - [ ] justify-content: space-between;
@@ -574,20 +574,20 @@ Note: a variant of the question above.
 
 - [ ] Icon fonts increase accessibility.
 - [ ] Icon fonts can be used to replace custom fonts.
-- [ ] Icon fonts can be styled with typography related properties such as font-size and color.
+- [x] Icon fonts can be styled with typography related properties such as font-size and color.
 - [ ] Icon fonts are also web safe fonts.
 
 #### Q42. What is the difference between `display:none` and `visibility:hidden`?
 
 - [ ] Both will hide the element on the page, but display:none has greater browser support. visibility:hidden is a new property and does not have the best browser support
 - [ ] display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document
-- [ ] display:none hides the element from view and removes it from the normal flow of the document. visibility:hidden will hide the element but maintains the space it previously occupied.
+- [x] display:none hides the element from view and removes it from the normal flow of the document. visibility:hidden will hide the element but maintains the space it previously occupied.
 - [ ] There is no difference; both will hide the element on the page
 
 #### Q43. What selector and property would you use to scale an element to be 50% smaller on hover?
 
 - [ ] element:hover {scale: 0.5;}
-- [ ] element:hover {transform: scale(0.5);}
+- [x] element:hover {transform: scale(0.5);}
 - [ ] element:hover {scale: 50%;}
 - [ ] element:hover {transform: scale(50%);}
 
@@ -596,7 +596,7 @@ Note: a variant of the question above.
 - [ ] Icon fonts can be inserted only using JavaScript.
 - [ ] Icon fonts are inserted as inline images.
 - [ ] Icon fonts require browser extensions.
-- [ ] Icon fonts can be styled with typography-related properties such as font-size and color.
+- [x] Icon fonts can be styled with typography-related properties such as font-size and color.
 
 #### Q45. The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
 
@@ -606,7 +606,7 @@ font-weight: 700;
 ```
 
 - [ ] bold; normal
-- [ ] normal; bold
+- [x] normal; bold
 - [ ] light; normal
 - [ ] normal; bolder
 
@@ -618,7 +618,7 @@ font-weight: 700;
     margin: 0 5 px;
   }
   ```
-- [ ]
+- [x]
   ```css
   li:nth-child(3n + 2) {
     margin: 0 5 px;
@@ -643,19 +643,19 @@ font-weight: 700;
 
 - [ ] `a[href="#"] {...}`
 - [ ] `a[href~="#"]`
-- [ ] `a[href^="#"]`
+- [x] `a[href^="#"]`
 - [ ] `a[href="#"]`
 
 #### Q48. What is the difference between the margin and padding properties?
 
 - [ ] Margin adds space around and inside of an element; padding adds space only inside of an element.
-- [ ] Margin adds space around an element; padding adds space inside of an element.
+- [x] Margin adds space around an element; padding adds space inside of an element.
 - [ ] Margin adds a line around an element, padding adds space inside of an element.
 - [ ] Margin adds space inside of an element, padding adds space around an element.
 
 #### Q49. What is not a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
 
-- [ ] padding: 10px 10px 0px 0px;
+- [x] padding: 10px 10px 0px 0px;
 - [ ] padding: 10px 0px;
 - [ ] padding: 10px 0;
 - [ ] padding: 10px 0px 10px 0px;
@@ -672,11 +672,11 @@ font-weight: 700;
 - [ ] The font file formats are not supported in modern browsers.
 - [ ] The src attribute requires a comma between the URL and format values.
 - [ ] There are no errors in the example.
-- [ ] The sans-serif inclusion is problematic.
+- [x] The sans-serif inclusion is problematic.
 
 #### Q51. Which style places an element at a fixed location within its container?
 
-- [ ] position: absolute;
+- [x] position: absolute;
 - [ ] display: flex;
 - [ ] display: block;
 - [ ] float: left;
@@ -689,14 +689,14 @@ font-weight: 700;
 }
 ```
 
-- [ ] The left margin value is equal to 5% of its parents element's width plus 5px
+- [x] The left margin value is equal to 5% of its parents element's width plus 5px
 - [ ] The left margin value is equal to 5% of the viewport width plus 5px
 - [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
 - [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
 
 #### Q53. Which code would you use to absolutely position an element of the logo class?
 
-- [ ] `.logo { position: absolute; left: 100px; top: 150px; }`
+- [x] `.logo { position: absolute; left: 100px; top: 150px; }`
 - [ ] `.logo { position: absolute; margin-left: 100px; margin-top: 150px; }`
 - [ ] `.logo { position: absolute; padding-left: 100px; padding-top: 150px; }`
 - [ ] `.logo { position: absolute; left-padding: 100px; top-padding: 150px; }`
@@ -728,12 +728,12 @@ p:first-child {
 
 - [ ] blue
 - [ ] green
-- [ ] red
+- [x] red
 - [ ] yellow
 
 #### Q55. What is the `::placeholder pseudo-element` used for?
 
-- [ ] It is used to format the appearance of placeholder text within a form control.
+- [x] It is used to format the appearance of placeholder text within a form control.
 - [ ] It specifies the default input text for a form control.
 - [ ] It writes text content into a hyperlink tooltip.
 - [ ] It writes text content into any page element.
@@ -743,19 +743,19 @@ p:first-child {
 - [ ] All browsers support single and double colons for new and older pseudo-elements. So you can use either but it is convention to use single colons for consistency.
 - [ ] In CSS3, the double colon notation (`::`) was introduced to create a consistency between pseudo-elements from pseudo-classes. For newer browsers, use the double colon notation. For IE8 and below, using single colon notation (`:`).
 - [ ] Only the new CSS3 pseudo-elements require the double colon notation while the CSS2 pseudo-elements do not.
-- [ ] In CSS3, the double colon notation (`::`) was introduced to differentiate pseudo-elements from pseudo-classes. However, modern browsers support both formats. Older browsers such as IE8 and below do not.
+- [x] In CSS3, the double colon notation (`::`) was introduced to differentiate pseudo-elements from pseudo-classes. However, modern browsers support both formats. Older browsers such as IE8 and below do not.
 
 #### Q57. Which choice is not valid value for the font-style property?
 
 - [ ] normal
 - [ ] italic
-- [ ] none
+- [x] none
 - [ ] oblique
 
 #### Q58. When would you use the @font-face method?
 
 - [ ] to set the font size of the text
-- [ ] to load custom fonts into stylesheet
+- [x] to load custom fonts into stylesheet
 - [ ] to change the name of the font declared in the font-family
 - [ ] to set the color of the text
 
@@ -763,12 +763,12 @@ p:first-child {
 
 - [ ] 2000 x 1400 pixels
 - [ ] 200 x 100 pixels
-- [ ] 800 x 400 pixels
+- [x] 800 x 400 pixels
 - [ ] 400 x 200 pixels
 
 #### Q60. In Chrome's Developer Tools view, where are the default styles listed?
 
-- [ ] under the User Agent Stylesheet section on the right
+- [x] under the User Agent Stylesheet section on the right
 - [ ] in the third panel under the Layout tab
 - [ ] under the HTML view on the left
 - [ ] in the middle panel
@@ -778,11 +778,11 @@ p:first-child {
 - [ ] semantic meaning
 - [ ] content meaning
 - [ ] document structure
-- [ ] content appearance
+- [x] content appearance
 
 #### Q62. What is the recommended name you should give the folder that holds your project's images?
 
-- [ ] images
+- [x] images
 - [ ] #images
 - [ ] Images
 - [ ] my images
@@ -790,7 +790,7 @@ p:first-child {
 #### Q63. What is an advantage of using inline CSS?
 
 - [ ] It is easier to manage.
-- [ ] It is easier to add multiple styles through it.
+- [x] It is easier to add multiple styles through it.
 - [ ] It can be used to quickly test local CSS overrides.
 - [ ] It reduces conflict with other CSS definition methods.
 
@@ -798,7 +798,7 @@ p:first-child {
 
 - [ ] Proposed Recommendation
 - [ ] Working Draft
-- [ ] Recommendation
+- [x] Recommendation
 - [ ] Candidate Recommendation
 
 #### Q65. Are any of the following declarations invalid?
@@ -812,11 +812,11 @@ padding: 10px 0; /* declaration C */
 - [ ] Declaration A is invalid.
 - [ ] Declaration B is invalid.
 - [ ] Declaration C is invalid.
-- [ ] All declarations are valid.
+- [x] All declarations are valid.
 
 #### Q66. Which CSS will cause your links to have a solid blue background that changes to semitransparent on hover?
 
-- [ ]
+- [x]
   ```css
   a:link {
     background: #0000ff;
@@ -857,7 +857,7 @@ padding: 10px 0; /* declaration C */
 
 - [ ] `div.sidebar {}`
 - [ ] `* {}`
-- [ ] `div#sidebar2 p {}`
+- [x] `div#sidebar2 p {}`
 - [ ] `.sidebar p {}`
 
 #### Q68. The body of your page includes some HTML sections. How will it look with the following CSS applied?
@@ -872,7 +872,7 @@ section {
 }
 ```
 
-- [ ] blue sections on a white background
+- [x] blue sections on a white background
 - [ ] Yellow sections on a blue background
 - [ ] Green sections on a white background
 - [ ] blue sections on a red background
@@ -882,11 +882,11 @@ section {
 - [ ] `!elevate!`
 - [ ] `*prime`
 - [ ] `override`
-- [ ] `!important`
+- [x] `!important`
 
 #### Q70. You can use the `___` pseudo-class to set a different color on a link if it was clicked on.
 
-- [ ] `a:visited`
+- [x] `a:visited`
 - [ ] `a:hover`
 - [ ] `a:link`
 - [ ] `a:focus`
@@ -896,13 +896,13 @@ section {
 - [ ] `background-color: #aaa;`
 - [ ] `background-color: #999999;`
 - [ ] `background-color: rgba(170,170,170,0.5);`
-- [ ] `background-color: rgba(170,170,170,0.2);`
+- [x] `background-color: rgba(170,170,170,0.2);`
 
 #### Q72. Which CSS selector can you use to select all elements on your page associated with the two classes header and clear?
 
 - [ ] `."header clear" {}`
 - [ ] `header#clear {}`
-- [ ] `.header.clear {}`
+- [x] `.header.clear {}`
 - [ ] `.header clear {}`
 
 #### Q73. A universal selector is specified using a(n) `___`.
@@ -910,7 +910,7 @@ section {
 - [ ] "h1" string
 - [ ] "a" character
 - [ ] "p" character
-- [ ] "\*" character
+- [x] "\*" character
 
 #### Q74. In the following CSS code, `'h1'` is the `___`, while `'color'` is the `___`.
 
@@ -923,7 +923,7 @@ h1 {
 - [ ] property; declaration
 - [ ] declaration; rule
 - [ ] "p" character
-- [ ] selector; property
+- [x] selector; property
 
 #### Q75. What is an alternate way to define the following CSS rule?
 
@@ -933,21 +933,21 @@ font-weight: bold;
 
 - [ ] font-weight: 400;
 - [ ] font-weight: medium;
-- [ ] font-weight: 700;
+- [x] font-weight: 700;
 - [ ] font-weight: Black;
 
 #### Q76. You want your styling to be based on a font stack consisting of three fonts. Where should the generic font for your font family be specified?
 
 - [ ] It should be the first one on the list.
 - [ ] Generic fonts are discouraged from this list.
-- [ ] It should be the last one on the list.
+- [x] It should be the last one on the list.
 - [ ] It should be the second one on the list.
 
 Note: a variant of the question below.
 
 #### Q77. When using a font stack to declare the font family, in what order should the values appear?
 
-- [ ] The first value is the first choice, followed by alternative options, ordered by preference. The last option should be a generic font.
+- [x] The first value is the first choice, followed by alternative options, ordered by preference. The last option should be a generic font.
 - [ ] The first value is the first choice. The order of the alternative options does not matter. It depends on what is available on the user's computer.
 - [ ] The first value is the first choice, and must be followed by at least one alternative option before adding the generic font.
 - [ ] The first value is the first choice, followed by a maximum of three alternatives.
@@ -959,11 +959,11 @@ Note: a variant of the question above.
 - [ ] It requires you to host font files on your own server.
 - [ ] It uses more of your site's bandwidth.
 - [ ] It offers a narrow selection of custom fonts.
-- [ ] It is not always a free service.
+- [x] It is not always a free service.
 
 #### Q79. How do you add Google fonts to your project?
 
-- [ ] by using an HTML link element referring to a Google-provided CSS
+- [x] by using an HTML link element referring to a Google-provided CSS
 - [ ] by embedding the font file directly into the project's master JavaScript
 - [ ] by using a Google-specific CSS syntax that directly links to the desired font file
 - [ ] by using a standard font-face CSS definition sourcing a font file on Google's servers
@@ -994,7 +994,7 @@ body {
 
 - [ ] The .rem will be equivalent to 25px; the .em value will be 20px.
 - [ ] The .rem will be equivalent to 15px; the .em value will be 20px.
-- [ ] The .rem will be equivalent to 15px; the .em value will be 40px.
+- [x] The .rem will be equivalent to 15px; the .em value will be 40px.
 - [ ] The .rem will be equivalent to 20px; the .em value will be 40px.
 
 #### Q81. What property is used to adjust the space between text characters?
@@ -1002,11 +1002,11 @@ body {
 - [ ] `font-style`
 - [ ] `text-transform`
 - [ ] `font-variant`
-- [ ] `letter-spacing`
+- [x] `letter-spacing`
 
 #### Q82. What is the correct syntax for changing the cursor from an arrow to a pointing hand when it interacts with a named element?
 
-- [ ] `.element {cursor: pointer;}`
+- [x] `.element {cursor: pointer;}`
 - [ ] `.element {cursor: hand;}`
 - [ ] `.element {cursor: move-hand;}`
 - [ ] `.element {cursor: pointer-hand;}`
@@ -1017,7 +1017,7 @@ body {
 background-position: 10% 50%;
 ```
 
-- [ ] The background image is placed 10% from the left and 50% from the top of its container
+- [x] The background image is placed 10% from the left and 50% from the top of its container
 - [ ] The background image is placed 10% from the bottom and 50% from the left of its container
 - [ ] The background image is placed 10% from the right and 50% from the bottom of its container
 - [ ] The background image is placed 10% from the top and 50% from the left of its container
@@ -1030,7 +1030,7 @@ grid-template-columns: 2fr 1fr;
 
 - [ ] The first column is twice the height of the second column and will be as wide as the content
 - [ ] The first column is half the size of the container and the second column will absorb the remaining space
-- [ ] The first column is twice as wide as the second column and will fit proportionally within the grid container
+- [x] The first column is twice as wide as the second column and will fit proportionally within the grid container
 - [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container
 
 #### Q85. Which style rule would make the image 50% smaller during a hover?
@@ -1040,7 +1040,7 @@ grid-template-columns: 2fr 1fr;
 ```
 
 - [ ] img#photo:hover {scale: 0.5;}
-- [ ] img#photo:hover {transform: scale(0.5);}
+- [x] img#photo:hover {transform: scale(0.5);}
 - [ ] img#photo {hover-scale: 0.5;}
 - [ ] img#photo:hover {size: smaller;}
 
@@ -1056,7 +1056,7 @@ D. border-top-radius: 10px;
 - [ ] A and C
 - [ ] C and D
 - [ ] B and C
-- [ ] A and B
+- [x] A and B
 
 #### Q87. Review the HTML example below. Then choose the list of selectors that select the \<p>, from lowest to highest specificity.
 
@@ -1111,7 +1111,7 @@ D. border-top-radius: 10px;
     ...;
   }
   ```
-- [ ]
+- [x]
   ```css
   1. p {
     ...;
@@ -1132,11 +1132,11 @@ D. border-top-radius: 10px;
 - [ ] element-shadow
 - [ ] outer-shadow
 - [ ] dropbox-shadow
-- [ ] box-shadow
+- [x] box-shadow
 
 #### Q89. What is the correct selector for targeting all text inputs that are not disabled?
 
-- [ ] `input[type="text"]:not([disabled]) {...}`
+- [x] `input[type="text"]:not([disabled]) {...}`
 - [ ] `input[type="text"]:not("disabled") {...}`
 - [ ] `input[type*="text"]:not([disabled="disabled"]) {...}`
 - [ ] `input[type="text"]:not([type="disabled"]) {...}`
@@ -1151,7 +1151,7 @@ D. border-top-radius: 10px;
 
 - [ ] `background-color: hsl(0, 0, 0, 0.5);`
 - [ ] `background-color: rgbx(0, 0, 0, 0.5);`
-- [ ] `background-color: rgba(0, 0, 0, 0.5);`
+- [x] `background-color: rgba(0, 0, 0, 0.5);`
 - [ ] `background-color: rgba(0, 0, 0, 1);`
 
 `rgba` is a funtion in css. rgba stands for red, green, blue and alpha. The value of alpha can be between 0 and 1 both inclusive with 0 being fully transparent and 1 being fully opaque.
@@ -1168,7 +1168,7 @@ D. border-top-radius: 10px;
 <h2>Heading 2</h2>
 ```
 
-- [ ] `header h1, header h2 {...}`
+- [x] `header h1, header h2 {...}`
 - [ ] `header h1 + header h2 {...}`
 - [ ] `header h1, h2 {...}`
 - [ ] `h1, h2 {...}`
@@ -1187,12 +1187,12 @@ D. border-top-radius: 10px;
 
 - [ ] The value for flex-direction should be reverse-row.
 - [ ] The .container element should have a property of flex: display.
-- [ ] The flex-direction property should be declared in the container.
+- [x] The flex-direction property should be declared in the container.
 - [ ] The display value should be flex-inline to display the items in a row.
 
 #### Q93. Which choice is not a valid transition?
 
-- [ ] `transition: margin 1000ms ease-in-out;`
+- [x] `transition: margin 1000ms ease-in-out;`
 - [ ] `transition: color 1.3s ease-in;`
 - [ ] `transition: position 400ms linear;`
 - [ ] `transition: opacity 1s ease-in;`
@@ -1220,7 +1220,7 @@ article > p {
 
 - [ ] Paragraph 1 will be blue. Paragraph 2 will be green.
 - [ ] Both paragraphs will be green.
-- [ ] Paragraph 1 will be green. Paragraph 2 will be blue.
+- [x] Paragraph 1 will be green. Paragraph 2 will be blue.
 - [ ] Both paragraphs will be blue.
 
 #### Q95. Review the declaration of border style shown below. What is the corresponding longhand syntax?
@@ -1241,7 +1241,7 @@ border: 1px solid red;
   border-type: solid;
   border-color: red;
   ```
-- [ ]
+- [x]
   ```css
   border-width: 1px;
   border-style: solid;
@@ -1256,7 +1256,7 @@ border: 1px solid red;
 
 #### Q96. Pseudo-classes are used to `_`.
 
-- [ ] style the state of the selected element
+- [x] style the state of the selected element
 - [ ] insert presentational content
 - [ ] style a specific part of the selected element
 - [ ] style the elements using class selectors
@@ -1279,12 +1279,12 @@ section {
 - [ ] The paragraph and link will be gray.
 - [ ] The background color of the section element will be gray.
 - [ ] The paragraph will be gray. The link will be the browser default, black.
-- [ ] Only the paragraph will be gray.
+- [x] Only the paragraph will be gray.
 
 #### Q98. Which answer is an example of a type selector (also sometimes referred to as an element selector)?
 
 - [ ] `.header {...}`
-- [ ] `header {...}`
+- [x] `header {...}`
 - [ ] `#header {...}`
 - [ ] `header > h1 {...}`
 
@@ -1311,7 +1311,7 @@ section {
   :link
   :visited
   ```
-- [ ]
+- [x]
   ```css
   :link
   :visited
@@ -1325,7 +1325,7 @@ section {
 - [ ] `section * p`
 - [ ] `section + p`
 - [ ] `section ~ p`
-- [ ] `section > p`
+- [x] `section > p`
 
 [Child combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)
 
@@ -1353,7 +1353,7 @@ a {
 </ul>
 ```
 
-- [ ] red
+- [x] red
 - [ ] orange
 - [ ] blue
 - [ ] black
@@ -1363,7 +1363,7 @@ a {
 #### Q102. Which statement is not true?
 
 - [ ] Specificity determines which CSS rule is applied by the browsers.
-- [ ] When two selectors apply to the same element, the one with lower specificity wins.
+- [x] When two selectors apply to the same element, the one with lower specificity wins.
 - [ ] The last rule defined overrides all previous rules and even conflicting rules.
 - [ ] Rules with more specific selectors have greater specificity.
 
@@ -1382,7 +1382,7 @@ a {
 
 - [ ] The example element will have 0 margin space on the left and right. It will be sized automatically on the top and bottom, which will center align the element within its container.
 
-- [ ] The example element will have 0 margin space on the top and bottom. The margin will be sized automatically on the left and right, which may center align the element within its container.
+- [x] The example element will have 0 margin space on the top and bottom. The margin will be sized automatically on the left and right, which may center align the element within its container.
 
 - [ ] The margin value is invalid because its missing a unit measurement after the 0.
 
@@ -1397,7 +1397,7 @@ a {
 10vmax = ?px
 ```
 
-- [ ] 10vw = 80px
+- [x] 10vw = 80px
       10vh = 60px
       10vmin = 60px
       10vmax = 80px
@@ -1445,12 +1445,12 @@ p:first-of-type:first-letter {
 
 - [ ] The first letter in all paragraphs will be red.
 - [ ] Only the first letter in paragraphs 1 and 5 will be red.
-- [ ] The first letter in paragraphs 1, 3, and 5 will be red.
+- [x] The first letter in paragraphs 1, 3, and 5 will be red.
 - [ ] Only the first letter in paragraph 1 will be red.Only
 
 #### Q106. Which five style features are associated with the box model?
 
-- [ ] margin, padding, border, width, height
+- [x] margin, padding, border, width, height
 - [ ] width, height, z-index, overflow, font size
 - [ ] margin, padding, font size, line height, border
 - [ ] font size, line height, letter spacing, width, height
@@ -1465,7 +1465,7 @@ a[href$="domain.com"] {
 }
 ```
 
-- [ ] B
+- [x] B
 
 ```css
 a[href="*domain.com"] {
@@ -1493,7 +1493,7 @@ a[href*="domain.com"] {
 
 #### Q108. Which property and value pair could be used to apply a linear gradient effect?
 
-- [ ] `css background: linear-gradient(#648880, #293f50);`
+- [x] `css background: linear-gradient(#648880, #293f50);`
 - [ ] `css background-image: linear(#648880, #293f50);`
 - [ ] `css background: gradient(linear, #648880, #293f50);`
 - [ ] `css background-color: linear-gradient(#648880, #293f50);`
@@ -1524,7 +1524,7 @@ glyphicon-bgcircle {
 }
 ```
 
-- [ ] C
+- [x] C
 
 ```css
 .glyphicon-bgcircle {
@@ -1558,7 +1558,7 @@ D. font-size: 20px
 ```
 
 - [ ] C, D
-- [ ] B, C, D
+- [x] B, C, D
 - [ ] A, C
 - [ ] A, B, C, D
 
@@ -1569,7 +1569,7 @@ D. font-size: 20px
 - [ ] Floating the blue box increased its height.
 - [ ] Floating the blue box on the left also moves it down.
 - [ ] Floating the blue box actually shifts it to the right and down.
-- [ ] Floating the blue box took it out of document flow and the container is sized only to the sample text.
+- [x] Floating the blue box took it out of document flow and the container is sized only to the sample text.
 
 #### Q112. Given this code, which CSS declaration of .overlay will span the entire width and height of its container?
 
@@ -1624,7 +1624,7 @@ D. font-size: 20px
 }
 ```
 
-- [ ] D
+- [x] D
 
 ```css
 .overlay {
@@ -1656,7 +1656,7 @@ img {
 ```
 
 - [ ] `z-index: 1;`
-- [ ] `z-index: -1;`
+- [x] `z-index: -1;`
 - [ ] `z-index: 0;`
 - [ ] `z-index: true;`
 
@@ -1665,7 +1665,7 @@ img {
 - [ ] `font-size: reduce;`
 - [ ] `font-size: 8px;`
 - [ ] `font-size: -1em;`
-- [ ] `font-size: smaller;`
+- [x] `font-size: smaller;`
 
 #### Q115. Given this markup, which selector would result in the text being highlighted in yellow?
 
@@ -1689,7 +1689,7 @@ img {
 }
 ```
 
-- [ ] C
+- [x] C
 
 ```css
 .highlight {
@@ -1707,7 +1707,7 @@ img {
 
 #### Q116. To prevent a background image from tiling in any direction, which style property would you apply?
 
-- [ ] A
+- [x] A
 
 ```css
 background-repeat: no-repeat;
@@ -1733,7 +1733,7 @@ background-tile: none;
 
 #### Q117. To rotate an object 30 degrees counterclockwise, which style property would you apply?
 
-- [ ] `transform: rotate(-30deg);`
+- [x] `transform: rotate(-30deg);`
 - [ ] `transform: rotate(30deg);`
 - [ ] `rotate: 30deg;`
 - [ ] `spin: 30deg;`
@@ -1743,7 +1743,7 @@ background-tile: none;
 #### Q118. Which style rule would you apply to set the background image to display the contents of the wood.png file?
 
 - [ ] `background-image: file('wood.png');`
-- [ ] `background-image: url('wood.png');`
+- [x] `background-image: url('wood.png');`
 - [ ] `background-image: wood.png;`
 - [ ] `image: wood.png`
 
@@ -1769,7 +1769,7 @@ p {
 }
 ```
 
-- [ ] C
+- [x] C
 
 ```css
 section + p {
@@ -1790,7 +1790,7 @@ p + section {
 #### Q120. You want to move an element up 100px. Which CSS property would you use?
 
 - [ ] `transform: translateX(-100px)`
-- [ ] `transform: translateY(-100px)`
+- [x] `transform: translateY(-100px)`
 - [ ] `transform: translateY(100px)`
 - [ ] `transform: translateX(100px)`
 
@@ -1832,7 +1832,7 @@ p + section {
 }
 ```
 
-- [ ] D
+- [x] D
 
 ```css
 #inner {
@@ -1867,11 +1867,11 @@ p + section {
 - [ ] top-right corner
 - [ ] bottom-right corner
 - [ ] top-left corner
-- [ ] bottom-left corner
+- [x] bottom-left corner
 
 #### Q123. Which choice uses the correct syntax for adding a hover pseudo class to <a> element ?
 
-- [ ] `a:hover {...}`
+- [x] `a:hover {...}`
 - [ ] `a :hover {...}`
 - [ ] `a.hover {...}`
 - [ ] `a hover {...}`
@@ -1893,7 +1893,7 @@ p + section {
   <h1 _____> Cellar Door</h1>
 ```
 
-- [ ] `class="text-shadow"`
+- [x] `class="text-shadow"`
 - [ ] `id="cellar-door"`
 - [ ] `id="text-shadow"`
 - [ ] `class="cellar-door"`
@@ -1903,7 +1903,7 @@ p + section {
 #### Q125. Which choice is a valid example of a comment in CSS?
 
 - [ ] `-- This line has been cancelled.`
-- [ ] `/* This line has been cancelled. */`
+- [x] `/* This line has been cancelled. */`
 - [ ] `// This line has been cancelled.`
 - [ ] `# This line has been cancelled.`
 
@@ -1925,7 +1925,7 @@ p + section {
 
 - [ ] P3
 - [ ] P1, P3 and P4
-- [ ] P3 and P4
+- [x] P3 and P4
 - [ ] P1
 
 [Reference](https://www.w3docs.com/snippets/css/what-does-the-css-tilde-selector-mean.html)
@@ -1956,7 +1956,7 @@ a:focus {
       `:hover` styles are applied on mouse over.
       `:focus` styles are applied on mouse click and hold, or when a Tab key on a keyboard is used to navigate through links.
 
-- [ ] `:visited` styles are applied after the link has been opened.
+- [x] `:visited` styles are applied after the link has been opened.
       `:active` styles are applied on mouse click only and before mouse release.
       `:hover` styles are applied on mouse over.
       `:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
